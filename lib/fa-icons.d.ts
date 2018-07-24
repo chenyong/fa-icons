@@ -2,6 +2,8 @@ import { CSSProperties } from "../node_modules/@types/react";
 
 export type IconType = "lg" | "2x" | "3x" | "4x" | "5x";
 
+import * as React from "react";
+
 export enum IconName {
   $500px = "500px",
   AddressBook = "address-book",
@@ -802,6 +804,6 @@ export interface IFaIconProps {
   onClick?: any;
 }
 
-import * as React from "react";
-
 declare class FaIcon extends React.Component<IFaIconProps, any> {}
+
+export default FaIcon;
