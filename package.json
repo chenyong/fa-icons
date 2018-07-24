@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@types/react": "^16.4.7",
+    "prettier": "^1.13.7",
+    "react": "^16.4.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "emotion": "^9.2.6"
+  },
+  "name": "@jimengio/fa-icons",
+  "version": "0.1.0",
+  "description": "Simple wrapper over FontAwesome icons with React Component",
+  "main": "lib/icon.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier src/*.tsx --write",
+    "compile": "tsc --jsx react src/*.tsx --outDir lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyong/fa-icons.git"
+  },
+  "author": "JIMENG.IO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenyong/fa-icons/issues"
+  },
+  "homepage": "https://github.com/chenyong/fa-icons#readme"
+}
