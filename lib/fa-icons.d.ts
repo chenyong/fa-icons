@@ -1,4 +1,4 @@
-import { CSSProperties } from "../node_modules/@types/react";
+import { CSSProperties } from "react";
 
 export type IconType = "lg" | "2x" | "3x" | "4x" | "5x";
 
