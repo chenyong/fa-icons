@@ -1,7 +1,19 @@
 import * as React from "react";
 
 import { cx } from "emotion";
-import { IFaIconProps } from "../lib/fa-icons";
+
+export type IconType = "lg" | "2x" | "3x" | "4x" | "5x";
+
+export interface IFaIconProps {
+  name: IconName;
+  className?: string;
+  style?: React.CSSProperties;
+  size?: IconType;
+  fixedWidth?: boolean;
+  pullLeft?: boolean;
+  spin?: boolean;
+  onClick?: any;
+}
 
 export enum IconName {
   $500px = "500px",

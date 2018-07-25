@@ -9,7 +9,7 @@
     "emotion": "^9.2.6"
   },
   "name": "@jimengio/fa-icons",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Simple wrapper over FontAwesome icons with React Component",
   "main": "lib/icon.js",
   "types": "./lib/icon.d.ts",
