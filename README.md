@@ -10,9 +10,9 @@ npm install @jimengio/fa-icons
 
 ```tsx
 import FaIcon from "@jimengio/fa-icons";
-import { EFaIconName } from "@jimengio/fa-icons";
+import { EFaIcon } from "@jimengio/fa-icons";
 
-<FaIcon name={EFaIconName.Home} />;
+<FaIcon name={EFaIcon.Home} />;
 ```
 
 ### License

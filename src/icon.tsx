@@ -5,7 +5,7 @@ import { cx } from "emotion";
 export type IconType = "lg" | "2x" | "3x" | "4x" | "5x";
 
 export interface IFaIconProps {
-  name: EFaIconName;
+  name: EFaIcon;
   className?: string;
   style?: React.CSSProperties;
   size?: IconType;
@@ -15,7 +15,7 @@ export interface IFaIconProps {
   onClick?: any;
 }
 
-export enum EFaIconName {
+export enum EFaIcon {
   $500px = "500px",
   AddressBook = "address-book",
   AddressBookO = "address-book-o",
