@@ -831,7 +831,3 @@ export default class FaIcon extends React.Component<IFaIconProps, any> {
     return <i style={style} className={classNames} aria-hidden="true" onClick={onClick} />;
   }
 }
-
-/** please use `EFaIconName`
- * 兼容老代码, 建议不使用 */
-export type IconName = EFaIconName;
