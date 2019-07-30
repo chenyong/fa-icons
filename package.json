@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier src/*.tsx --write",
-    "compile": "tsc -d --project tsconfig-compile.json --outDir lib/"
+    "compile": "rm -rfv lib && tsc -d --project tsconfig-compile.json --outDir lib/",
+    "prepare": "yarn compile"
   },
   "repository": {
     "type": "git",
