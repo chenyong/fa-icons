@@ -2,15 +2,17 @@
 
 > based on FontAwesome v4.7.0
 
+![](https://img.shields.io/npm/v/@jimengio/fa-icons.svg?style=flat-square)
+
 ```bash
 npm install @jimengio/fa-icons
 ```
 
-```ts
+```tsx
 import FaIcon from "@jimengio/fa-icons";
-import { IconName } from "@jimengio/fa-icons";
+import { EFaIconName } from "@jimengio/fa-icons";
 
-<FaIcon name={IconName.Home} />;
+<FaIcon name={EFaIconName.Home} />;
 ```
 
 ### License

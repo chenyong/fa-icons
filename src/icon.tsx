@@ -5,7 +5,7 @@ import { cx } from "emotion";
 export type IconType = "lg" | "2x" | "3x" | "4x" | "5x";
 
 export interface IFaIconProps {
-  name: IconName;
+  name: EFaIconName;
   className?: string;
   style?: React.CSSProperties;
   size?: IconType;
@@ -15,7 +15,7 @@ export interface IFaIconProps {
   onClick?: any;
 }
 
-export enum IconName {
+export enum EFaIconName {
   $500px = "500px",
   AddressBook = "address-book",
   AddressBookO = "address-book-o",
@@ -831,3 +831,7 @@ export default class FaIcon extends React.Component<IFaIconProps, any> {
     return <i style={style} className={classNames} aria-hidden="true" onClick={onClick} />;
   }
 }
+
+/** please use `EFaIconName`
+ * 兼容老代码, 建议不使用 */
+export type IconName = EFaIconName;

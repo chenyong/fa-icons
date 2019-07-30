@@ -1,16 +1,6 @@
 {
-  "devDependencies": {
-    "@types/react": "^16.4.14",
-    "prettier": "^1.17.0",
-    "react": "^16.8.6",
-    "typescript": "^3.4.5",
-    "emotion": "^10.0.9"
-  },
-  "peerDependencies": {
-    "emotion": "*"
-  },
   "name": "@jimengio/fa-icons",
-  "version": "0.1.11",
+  "version": "0.1.12-a1",
   "description": "Simple wrapper over FontAwesome icons with React Component",
   "main": "lib/icon.js",
   "types": "./lib/icon.d.ts",
@@ -31,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/chenyong/fa-icons/issues"
   },
-  "homepage": "https://github.com/chenyong/fa-icons#readme"
+  "homepage": "https://github.com/chenyong/fa-icons#readme",
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "prettier": "^1.17.0",
+    "react": "^16.8.6",
+    "typescript": "^3.4.5",
+    "emotion": "^10.0.9"
+  },
+  "peerDependencies": {
+    "emotion": "*"
+  }
 }
