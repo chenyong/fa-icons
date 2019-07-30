@@ -1,6 +1,6 @@
 {
   "name": "@jimengio/fa-icons",
-  "version": "0.1.12-a3",
+  "version": "0.2.0",
   "description": "Simple wrapper over FontAwesome icons with React Component",
   "main": "lib/icon.js",
   "types": "./lib/icon.d.ts",
